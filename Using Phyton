@@ -122,3 +122,14 @@ form input, form textarea {
     width: 80%;
     max-width: 400px;
 }
+
+// javaScript
+document.getElementById('orderButton').addEventListener('click', function() {
+    alert('Order placed successfully!');
+});
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Thank you for your message!');
+});
+
